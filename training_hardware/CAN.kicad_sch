@@ -5,7 +5,7 @@
 	(uuid "6ded55da-69da-4fff-9cbb-e4e246b32a56")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2026_training_hardware:ATA6561-GBQW-N"
+		(symbol "2026_training_hardware:ATA6561-GAQW-N"
 			(pin_names
 				(offset 0.254)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "ATA6561-GBQW-N"
+			(property "Value" "ATA6561-GAQW-N"
 				(at 20.32 7.62 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "VDFN8_3X3_MCH"
+			(property "Footprint" "2026_Training_Hardware:SOIC8_4P9X3P9MC_MCH-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "ATA6561-GBQW-N"
+			(property "ki_keywords" "ATA6561-GAQW-N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ATA6561-GBQW-N_0_1"
+			(symbol "ATA6561-GAQW-N_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -15.24)
@@ -1472,7 +1472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 173.6852 105.41 0)
 			(effects
 				(font
@@ -1647,97 +1647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2026_training_hardware:ATA6561-GBQW-N")
-		(at 118.11 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70227d74-de5c-4d4f-bd24-f51bce11cc0f")
-		(property "Reference" "U2"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ATA6561-GBQW-N"
-			(at 138.43 76.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "VDFN8_3X3_MCH"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005991B.pdf"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e837b72-ede9-43ba-a6af-0cca6ac51480")
-		)
-		(pin "5"
-			(uuid "99336233-af41-44f1-b0bb-4db9b3a0c4bb")
-		)
-		(pin "1"
-			(uuid "14464e11-bdeb-43ca-b86e-61f1d783dab3")
-		)
-		(pin "3"
-			(uuid "df384814-7882-48c2-a907-9bd88d8b261d")
-		)
-		(pin "6"
-			(uuid "5c264c9b-29e0-4a18-8c53-2d89b089142b")
-		)
-		(pin "7"
-			(uuid "8dd6803f-0459-4957-8c3e-9649b46dc00f")
-		)
-		(pin "9"
-			(uuid "7ea492e2-2755-4390-82dc-04fadbe3b2a7")
-		)
-		(pin "4"
-			(uuid "026aa3fc-15f7-4837-a27c-0737c52fc32e")
-		)
-		(pin "8"
-			(uuid "028e623d-262f-42ff-a33e-1ce11326fbef")
-		)
-		(instances
-			(project ""
-				(path "/19aa0e78-5ab4-46df-84c9-9ca161187559/7eccd71b-15cd-404e-a4e7-cd889f0fa3a2"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 186.69 90.17 0)
 		(unit 1)
@@ -1765,7 +1674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 187.706 90.424 90)
 			(effects
 				(font
@@ -1901,7 +1810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 100.0252 99.06 0)
 			(effects
 				(font
@@ -1944,6 +1853,97 @@
 		)
 	)
 	(symbol
+		(lib_id "2026_training_hardware:ATA6561-GAQW-N")
+		(at 118.11 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fce1176-a83f-42e6-9bd7-586c1f6dbb8f")
+		(property "Reference" "U2"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ATA6561-GAQW-N"
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "2026_Training_Hardware:SOIC8_4P9X3P9MC_MCH-L"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005991B.pdf"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "5f7accda-801b-40e9-9d08-8ced694e279c")
+		)
+		(pin "2"
+			(uuid "a65f8ae8-63b9-4a8a-9460-e6d8e79e30d9")
+		)
+		(pin "1"
+			(uuid "3c382e66-844a-4011-ac9c-0453fbde3a74")
+		)
+		(pin "5"
+			(uuid "2d033506-5801-422f-8f7c-b4dc3ebef712")
+		)
+		(pin "8"
+			(uuid "d9269ffb-107b-4cf4-84d0-77b4990b0cd7")
+		)
+		(pin "3"
+			(uuid "90dfc55b-2c4e-4d1f-80c8-985dd90f9177")
+		)
+		(pin "9"
+			(uuid "031ee418-d99b-4ea0-a37c-2e098238187f")
+		)
+		(pin "4"
+			(uuid "44c30c63-21ef-4dfb-a45c-a27c296eb784")
+		)
+		(pin "7"
+			(uuid "2edac3b7-f042-47e7-9452-df45c1cab6ee")
+		)
+		(instances
+			(project ""
+				(path "/19aa0e78-5ab4-46df-84c9-9ca161187559/7eccd71b-15cd-404e-a4e7-cd889f0fa3a2"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_02")
 		(at 208.28 92.71 0)
 		(unit 1)
@@ -1971,7 +1971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 208.28 95.25 0)
 			(effects
 				(font
