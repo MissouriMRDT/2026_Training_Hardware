@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "2026Training_Hardware")(type "KiCad")(uri "C:/Users/samue/OneDrive/Documents/GitHub/2026_Training_Hardware/lib/Footprints/2026Training_Hardware.pretty")(options "")(descr ""))
+)

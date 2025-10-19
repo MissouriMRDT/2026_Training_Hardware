@@ -3043,7 +3043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 220.345 50.8 90)
 			(effects
 				(font
@@ -3344,7 +3344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 215.5952 78.74 0)
 			(effects
 				(font
@@ -3478,7 +3478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE_DEV-16771"
+		(property "Footprint" "MRDT_Shields:Teensy_4_1_Ethernet"
 			(at 196.85 109.22 0)
 			(effects
 				(font
