@@ -2469,8 +2469,8 @@
 		(uuid "0407f50e-9ffe-4830-9e5f-41a04c439964")
 	)
 	(no_connect
-		(at 156.21 58.42)
-		(uuid "3c203c20-6da6-4f72-af8a-d6817d714d20")
+		(at 88.9 86.36)
+		(uuid "36016465-6989-49ce-bd71-02df1c4da286")
 	)
 	(no_connect
 		(at 130.81 43.18)
@@ -2479,6 +2479,50 @@
 	(no_connect
 		(at 128.27 43.18)
 		(uuid "5c6ec89e-d00f-4be4-adfe-43f00d7b7d9b")
+	)
+	(no_connect
+		(at 88.9 48.26)
+		(uuid "61029665-dca9-4bac-a88d-1796092bfac5")
+	)
+	(no_connect
+		(at 88.9 71.12)
+		(uuid "6d513727-67fd-49e1-a45e-72a913271d21")
+	)
+	(no_connect
+		(at 88.9 91.44)
+		(uuid "804ea91e-fef9-4abe-8008-05a7c5dfd4d0")
+	)
+	(no_connect
+		(at 88.9 93.98)
+		(uuid "86e0355f-7071-4190-a090-2e34373a0db1")
+	)
+	(no_connect
+		(at 88.9 73.66)
+		(uuid "9df379f4-2a22-4bf2-8c6d-a0b78b0dce13")
+	)
+	(no_connect
+		(at 88.9 101.6)
+		(uuid "a7ae8d20-74da-4aea-8039-af6a562cc152")
+	)
+	(no_connect
+		(at 88.9 104.14)
+		(uuid "b2b46ce7-e689-4f09-a788-862c4b0a5265")
+	)
+	(no_connect
+		(at 88.9 96.52)
+		(uuid "bf6fc1b6-ce02-49bc-aa76-0acf05af83a9")
+	)
+	(no_connect
+		(at 88.9 83.82)
+		(uuid "e0a7e4e4-ae28-43ff-beee-fe7920c0b22f")
+	)
+	(no_connect
+		(at 88.9 81.28)
+		(uuid "e7a8950d-9cc1-439c-b05c-deec41fbcb36")
+	)
+	(no_connect
+		(at 88.9 50.8)
+		(uuid "f900f8b3-4ee1-4853-b55a-c0a0597d367b")
 	)
 	(wire
 		(pts
@@ -2742,6 +2786,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 53.34) (xy 44.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ce948d-2945-4ba7-9682-4f06517c566f")
+	)
+	(wire
+		(pts
+			(xy 44.45 55.88) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3609b81-df0b-48d4-9eda-c915fa746dc1")
+	)
+	(wire
+		(pts
 			(xy 146.05 43.18) (xy 146.05 36.83)
 		)
 		(stroke
@@ -2949,7 +3013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE_DEV-16771"
+		(property "Footprint" "MRDT_Shields:Teensy_4_1_Ethernet"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -3355,6 +3419,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 44.45 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d7f0c12-3303-416a-b512-67f64f3343a7")
+		(property "Reference" "#PWR017"
+			(at 44.45 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 44.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 44.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2a66feb-9295-40e6-b985-7d3c916f6d2c")
+		)
+		(instances
+			(project "Training_Hardware"
+				(path "/11bb8091-1487-4100-afd2-5aa288c40d4f/bab747f3-bfff-4257-8440-bff62be5f0b7"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 36.83 0)
 		(unit 1)
@@ -3448,7 +3578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 136.525 53.34 90)
 			(effects
 				(font
@@ -3617,7 +3747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 131.7752 77.47 0)
 			(effects
 				(font

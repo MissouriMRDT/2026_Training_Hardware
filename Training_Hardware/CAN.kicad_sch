@@ -1538,7 +1538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.9852 100.33 0)
 			(effects
 				(font
@@ -1575,6 +1575,97 @@
 			(project "Training_Hardware"
 				(path "/11bb8091-1487-4100-afd2-5aa288c40d4f/0a6d09a5-8604-4486-916d-6a6dce84b6b8"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2026TrainingHardware:ATA6561-GBQW-N")
+		(at 114.3 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d2c2e01-8241-4299-b9da-15d376745ee2")
+		(property "Reference" "U3"
+			(at 134.62 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ATA6561-GBQW-N"
+			(at 134.62 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "2026_Training_Hardware:SOIC8_4P9X3P9MC_MCH-L"
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005991B.pdf"
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1ec53636-bc0f-4d8e-849c-7c1310ad3fa0")
+		)
+		(pin "7"
+			(uuid "17e59767-c576-4ca0-95a1-d35b9da6e8ef")
+		)
+		(pin "1"
+			(uuid "ebb7d02a-f24a-4b5b-aff9-ca32da11ed75")
+		)
+		(pin "6"
+			(uuid "6f835700-2bbd-4d2b-b9c9-4115ca27b413")
+		)
+		(pin "2"
+			(uuid "1babc550-57b7-436f-97bb-ec2800cf1280")
+		)
+		(pin "3"
+			(uuid "266b8c19-ee7c-46ab-93f4-cd6d19acafea")
+		)
+		(pin "9"
+			(uuid "3312e4a1-bcfa-4c21-88b3-08d7a18a8490")
+		)
+		(pin "8"
+			(uuid "d0cfcdaf-df54-46ed-95c5-e8a367be5a43")
+		)
+		(pin "5"
+			(uuid "04e2e447-5f8b-44a9-9f89-15322b25e0a8")
+		)
+		(instances
+			(project ""
+				(path "/11bb8091-1487-4100-afd2-5aa288c40d4f/0a6d09a5-8604-4486-916d-6a6dce84b6b8"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1648,97 +1739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2026TrainingHardware:ATA6561-GBQW-N")
-		(at 114.3 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e99a74f-8f27-4788-8750-bc49cb1545f5")
-		(property "Reference" "U3"
-			(at 134.62 69.85 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ATA6561-GBQW-N"
-			(at 134.62 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "VDFN8_3X3_MCH"
-			(at 114.3 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005991B.pdf"
-			(at 114.3 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "be2ea9c6-40de-4cca-bcb8-34ede16f927b")
-		)
-		(pin "6"
-			(uuid "80aaf158-f89c-40e7-9a88-45e1f283bf35")
-		)
-		(pin "7"
-			(uuid "c1cb9f9b-a6e7-45af-a4c2-339f6bbd53fe")
-		)
-		(pin "5"
-			(uuid "e53d0a02-f17f-4fe3-a9b1-2407ebde92dc")
-		)
-		(pin "1"
-			(uuid "19514808-d9eb-4818-8dbe-572b2871030b")
-		)
-		(pin "2"
-			(uuid "44daafb0-f578-4694-bf7b-ac9c0aec55bd")
-		)
-		(pin "3"
-			(uuid "9a4f99f3-9ce3-420a-833e-83954c991f4f")
-		)
-		(pin "9"
-			(uuid "e84e6c5a-f00b-40e9-9ecc-0527a30698cf")
-		)
-		(pin "8"
-			(uuid "a6be64ce-a7ea-4671-945e-58f3e6545452")
-		)
-		(instances
-			(project ""
-				(path "/11bb8091-1487-4100-afd2-5aa288c40d4f/0a6d09a5-8604-4486-916d-6a6dce84b6b8"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 102.87 92.71 0)
 		(unit 1)
@@ -1766,7 +1766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 103.8352 96.52 0)
 			(effects
 				(font
@@ -1902,7 +1902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 204.47 88.9 0)
 			(effects
 				(font
@@ -1972,7 +1972,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 188.214 83.566 90)
 			(effects
 				(font
