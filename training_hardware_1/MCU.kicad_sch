@@ -2537,10 +2537,6 @@
 		(uuid "69a8dd8d-abdf-49fb-b9d3-7eef0ace84da")
 	)
 	(no_connect
-		(at 156.21 62.23)
-		(uuid "6ff2770a-b8b0-4931-b6b5-e98e5d2ee409")
-	)
-	(no_connect
 		(at 156.21 110.49)
 		(uuid "701552f5-e795-4bd2-81f9-2372b9ecf18c")
 	)
@@ -2746,6 +2742,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 54.61) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c80178-71a8-429d-b9d3-d51d6e87e09a")
+	)
+	(wire
+		(pts
 			(xy 229.87 29.21) (xy 237.49 29.21)
 		)
 		(stroke
@@ -2753,6 +2759,16 @@
 			(type default)
 		)
 		(uuid "31bbd51b-f9f6-4ef3-b88f-ef73c2d74e59")
+	)
+	(wire
+		(pts
+			(xy 147.32 62.23) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3262f4f1-56ef-48a5-97ad-261bbbaeccc8")
 	)
 	(wire
 		(pts
@@ -3285,7 +3301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE_DEV-16771"
+		(property "Footprint" "MRDT_Shields:Teensy_4_1_Ethernet"
 			(at 229.87 105.41 0)
 			(effects
 				(font
@@ -3761,6 +3777,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "945582c2-d95a-4cfb-b9e7-702413cc9b3b")
+		(property "Reference" "#PWR017"
+			(at 147.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97e49e87-b483-4ecb-8b7e-0a9e9f2e92df")
+		)
+		(instances
+			(project "training_hardware_1"
+				(path "/7ad66101-d49b-4767-9ce8-b98c98937367/f8e32be3-5f9f-413c-af9c-31119b50f242"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 74.93 0)
 		(unit 1)
@@ -3854,7 +3936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 220.345 41.91 90)
 			(effects
 				(font

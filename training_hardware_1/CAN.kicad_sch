@@ -5,7 +5,7 @@
 	(uuid "13f0bd8c-8b15-4f11-9ca0-e0eb8b0c4e47")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2026_training_hardware:ATA6561-GBQW-N"
+		(symbol "2026_training_hardware:ATA6561-GAQW-N"
 			(pin_names
 				(offset 0.254)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "ATA6561-GBQW-N"
+			(property "Value" "ATA6561-GAQW-N"
 				(at 20.32 7.62 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "VDFN8_3X3_MCH"
+			(property "Footprint" "2026_Training_Hardware:SOIC8_4P9X3P9MC_MCH-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "ATA6561-GBQW-N"
+			(property "ki_keywords" "ATA6561-GAQW-N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +75,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ATA6561-GBQW-N_0_1"
+			(symbol "ATA6561-GAQW-N_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -15.24)
@@ -1469,7 +1469,7 @@
 		(uuid "dee8d174-7e03-4d44-b59b-5fd462b4c225")
 	)
 	(symbol
-		(lib_id "2026_training_hardware:ATA6561-GBQW-N")
+		(lib_id "2026_training_hardware:ATA6561-GAQW-N")
 		(at 97.79 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1477,7 +1477,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a90018a-b0ef-43ea-a7ab-c9b3207ad8e0")
+		(uuid "1832180d-fc69-48a5-a4ab-0598e8d5cebf")
 		(property "Reference" "U3"
 			(at 118.11 82.55 0)
 			(effects
@@ -1486,7 +1486,7 @@
 				)
 			)
 		)
-		(property "Value" "ATA6561-GBQW-N"
+		(property "Value" "ATA6561-GAQW-N"
 			(at 118.11 85.09 0)
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VDFN8_3X3_MCH"
+		(property "Footprint" "2026_Training_Hardware:SOIC8_4P9X3P9MC_MCH-L"
 			(at 97.79 92.71 0)
 			(effects
 				(font
@@ -1523,32 +1523,32 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "4c52070e-e695-40b4-a3c4-ae1d6a63161d")
-		)
-		(pin "9"
-			(uuid "b58a657c-f3d4-4012-a774-f53203e3f7d3")
-		)
-		(pin "7"
-			(uuid "627e9a05-b55a-43e8-85e3-c9fc566c5c5f")
+		(pin "3"
+			(uuid "791df100-e8ba-4bd4-9243-19164ac31397")
 		)
 		(pin "1"
-			(uuid "000ea4eb-f791-4114-be82-ca6dd1b96b36")
-		)
-		(pin "6"
-			(uuid "07b14258-87b3-401b-ad68-dcae19d9d876")
-		)
-		(pin "2"
-			(uuid "cd81e739-9b88-440e-9ec4-e7d278b545cb")
-		)
-		(pin "3"
-			(uuid "c46a4407-7694-4719-b27b-6e7da78acdfc")
+			(uuid "68cc711f-1323-4892-bd3b-1b3922a37995")
 		)
 		(pin "4"
-			(uuid "d0606239-4405-462b-81da-1fc5b912016e")
+			(uuid "9d3fcff0-3ec3-40c8-a8cb-813096cd7721")
+		)
+		(pin "7"
+			(uuid "7b8d9edc-f401-4743-ad68-c713c3d1daff")
+		)
+		(pin "5"
+			(uuid "ce0dff32-c22d-482e-9e86-845686064e2c")
+		)
+		(pin "2"
+			(uuid "aab15474-0064-4046-b277-0fe90654bf7a")
 		)
 		(pin "8"
-			(uuid "d8097191-b9c9-491b-bcfd-fbe0e7b57fa8")
+			(uuid "83035089-cc41-4ec1-838b-ae6f4c85c7d0")
+		)
+		(pin "9"
+			(uuid "f40dabb6-817c-4104-937c-1f9d25f10479")
+		)
+		(pin "6"
+			(uuid "4bc91aa7-1ee0-4ded-9b4b-773fb4ebd861")
 		)
 		(instances
 			(project ""
@@ -1653,7 +1653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
 			(at 171.45 106.68 0)
 			(effects
 				(font
