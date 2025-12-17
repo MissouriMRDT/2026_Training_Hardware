@@ -5,8 +5,38 @@
 	(uuid "396efc46-0624-4b5a-8d52-10436ddb56f1")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcde53c-c87c-4676-9e8f-1017c8d4803f")
+	)
+	(wire
+		(pts
+			(xy 90.17 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c95b36c-4911-4e48-98db-403ae73fb7ed")
+	)
+	(wire
+		(pts
+			(xy 90.17 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf92e5d5-929f-4b43-8f94-01b6bb4a74b0")
+	)
 	(sheet
-		(at 142.24 76.2)
+		(at 106.68 74.93)
 		(size 30.48 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +52,7 @@
 		)
 		(uuid "c7e42e04-9596-414a-b3e5-d4438426bcd6")
 		(property "Sheetname" "MCU"
-			(at 142.24 75.4884 0)
+			(at 106.68 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +61,42 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 142.24 98.3746 0)
+			(at 106.68 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CRX1" input
+			(at 106.68 88.9 180)
+			(uuid "b9ebd0f9-af69-4b76-af8b-66d7bef03e78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTX1" output
+			(at 106.68 80.01 180)
+			(uuid "b5f3750c-4020-47e2-b3cd-0e31d9dbd16a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STBY" output
+			(at 106.68 83.82 180)
+			(uuid "4c7a7b1c-292f-4967-84ce-ac32b2c4f919")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -121,6 +181,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RXD" output
+			(at 90.17 88.9 0)
+			(uuid "26a1b55b-ea36-4440-9743-5e00d7b2e99c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STBY" input
+			(at 90.17 83.82 0)
+			(uuid "6a9fcba8-8e85-4ffe-a355-221dfc9aab0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 90.17 80.01 0)
+			(uuid "90915ce8-7572-4360-9b35-bfa8f4c818c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
